@@ -9,13 +9,15 @@ import {
 
 // Paste your Firebase config here once created
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAnuoOBn6_d8TP7J6C_YTn50BKSd6RhSow",
+  authDomain: "booknest-c9088.firebaseapp.com",
+  projectId: "booknest-c9088",
+  storageBucket: "booknest-c9088.firebasestorage.app",
+  messagingSenderId: "413734001550",
+  appId: "1:413734001550:web:8af49c6b91f63c048922df",
+  measurementId: "G-R3Z6XZGXGM"
 };
+
 
 let db = null;
 try {
