@@ -38,16 +38,19 @@ booknest/
 
 ## 🚀 How It Works
 
-_ **Catalog Loading (init):** Connects to Firebase Firestore and fetches documents from the products collection. If none exist yet, it seamlessly renders the default catalog.
-_ **Cart Management:**  Tracks item quantities and calculates subtotals  real time inside a slide-out cart drawer.
--  **Order Checkout:**  Validates cart items and writes a structured order document (customerName, items, total, createdAt) to the Firestore orders collection.
+- **Catalog Loading (init):** Connects to Firebase Firestore and fetches documents from the products collection. If none exist yet, it seamlessly renders the default catalog.
+- **Cart Management:**  Tracks item quantities and calculates subtotals  real time inside a slide-out cart drawer.
+- **Order Checkout:**  Validates cart items and writes a structured order document (customerName, items, total, createdAt) to the Firestore orders collection.
 
-## Setup & Configuration
+## 🛠️Setup & Configuration
+1. Clone or fork this repository.
 
-Clone or fork this repository.
-Create a project in the Firebase Console, register a Web App, and enable Cloud Firestore.
-Replace the firebaseConfig object in app.js with your project's credentials.
-Enable GitHub Pages from Settings → Pages (main branch, / (root) folder).
+2. Create a project in the Firebase
+   ```
+   Console, register a Web App, and enable Cloud Firestore.
+   ```
+3. Replace the firebaseConfig object in app.js with your project's credentials.
+4. Enable GitHub Pages from Settings → Pages (main branch, / (root) folder).
 
 
 
