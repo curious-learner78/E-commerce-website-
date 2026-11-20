@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookNest | Curated Books & Study Essentials</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">📚 BookNest</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#catalog">Catalog</a>
+    </nav>
+    <button id="open-cart-btn" class="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <section id="home" class="hero">
+    <span class="badge">Curated Reads & Study Gear</span>
+    <h1>Stories & Knowledge, Delivered to Your Desk</h1>
+    <p>Explore classic Tamil & English literature, technical guides, and minimal stationery.</p>
+    <a href="#catalog" class="primary-btn">Browse Collection</a>
+  </section>
+
+  <main id="catalog" class="container">
+    <div class="controls">
+      <input type="text" id="search-input" placeholder="Search books or authors..." />
+      <div class="category-pills" id="category-pills">
+        <button class="pill active" data-cat="All">All</button>
+        <button class="pill" data-cat="Literature">Literature</button>
+        <button class="pill" data-cat="Tech">Tech & Study</button>
+        <button class="pill" data-cat="Stationery">Stationery</button>
+      </div>
+    </div>
+
+    <div id="product-grid" class="product-grid"></div>
+  </main>
+
+  <!-- Slide-out Cart Drawer -->
+  <div id="cart-drawer" class="cart-drawer hidden">
+    <div class="cart-panel">
+      <div class="cart-header">
+        <h3>Your BookNest Bag</h3>
+        <button id="close-cart-btn" class="close-btn">&times;</button>
+      </div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="total-row">
+          <span>Total:</span>
+          <strong id="cart-total">₹0</strong>
+        </div>
+        <input type="text" id="customer-name" placeholder="Your Name for Order" />
+        <button id="checkout-btn" class="primary-btn full-width">Place Order</button>
+        <p id="order-status" class="status-msg"></p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
