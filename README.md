@@ -2,7 +2,7 @@
 
 A responsive, full-stack e-commerce web application for browsing books and stationery, filtering by category, managing a live shopping cart, and placing real-time orders backed by **Firebase Cloud Firestore**.
 
-🔗 **Live Demo:** [https://curious-learner78.github.io/booknest/](https://curious-learner78.github.io/booknest/)
+🔗 **Live Demo:** [https://curious-learner78.github.io/booknest/](https://curious-learner78.github.io/E-commerce-website-/)
 
 ---
 
